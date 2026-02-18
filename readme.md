@@ -1,4 +1,4 @@
-# ⚡ Quickly — Multi-Connection CLI Downloader
+# Quickly — Multi-Connection CLI Downloader
 
 A fast, resilient, multi-connection file downloader for Node.js inspired by tools like FDM/IDM.
 
@@ -18,6 +18,12 @@ Quickly splits files into chunks and downloads them in parallel with resume supp
 * 🔗 Automatic fallback if server doesn't support range requests
 
 ---
+
+## Demo (npx)
+
+```
+npx @raj-vashisht/quickly https://speed.hetzner.de/100MB.bin test.bin --verbose --connections 5 --retry 3
+```
 
 ## 📦 Installation
 
