@@ -22,7 +22,7 @@ Quickly splits files into chunks and downloads them in parallel with resume supp
 ## Demo (npx)
 
 ```
-npx @raj-vashisht/quickly https://speed.hetzner.de/100MB.bin test.bin --verbose --connections 5 --retry 3
+npx @raj-vashisht/quickly https://nbg1-speed.hetzner.com/1GB.bin test.bin --verbose --connections 5 --retry 3
 ```
 
 ## 📦 Installation

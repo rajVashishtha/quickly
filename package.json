@@ -1,6 +1,6 @@
 {
   "name": "@raj-vashisht/quickly",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Multi-connection CLI downloader with resume support",
   "bin": {
     "quickly": "./dist/cli.js"
